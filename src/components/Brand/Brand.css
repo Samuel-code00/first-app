@@ -1,0 +1,51 @@
+.brand{
+    background-color:#F0F0F0;
+    width: 90%;
+    margin: auto;
+    padding: 0 20px ;
+    border-radius: 60px;
+    width: 80%;
+    padding: 0 20px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    gap: 10px;
+    justify-content: space-around;
+    align-content: center;
+    /* background-color: blue; */
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    height: 283px;
+    
+  }
+  
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 400px;
+  
+  }
+
+  .item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: 665px;
+    
+  }
+
+  .item3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 665px;
+  }
+  .item4{
+    width: 400px;
+    margin-right: 90px;
+  }

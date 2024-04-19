@@ -1,0 +1,68 @@
+.cart{
+    margin-top: 180px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.clothes{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60px;
+}
+.clothes img{
+    width: 250px;
+}
+
+.view{
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    padding-top: 9px;
+    margin-left: 570px;
+    margin-top: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#line{
+    margin: 50px;
+    width: 80%;
+    margin-left: 135px;
+}
+
+
+.clothes1{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.clothes1 img{
+    width: 250px;
+}
+
+.page h2{
+    margin-top: 0;
+
+}
+
+.dress{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.dress p{
+    margin: 0;
+
+}
+
+.dress img{
+    width: 150px;
+    
+}

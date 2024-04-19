@@ -1,0 +1,61 @@
+.page{
+    margin-left: 40px;
+}
+
+.head1{
+    margin-top: 10px;
+    padding-top: 90px;
+    justify-content: space-between;
+   
+}
+
+.head2{
+    font-size: 70px;
+    width: 577px;
+    margin: -15px;
+    /* height: 137px; */
+}
+
+h2 + p{
+    margin-bottom: 40px;
+}
+
+.head3{
+    line-height: 20px;
+}
+.vector{
+    padding-top: 20px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.page2{
+    display: flex;
+    width: 40%;
+    height: 50px;
+    padding: auto;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.page2 p{
+    margin: 0;
+}
+
+.page3{
+    display: flex;
+    background-color:black;
+    align-items: center;
+    justify-content: space-around;
+    height: 95px;
+    margin-top: 22px;
+}
+.page3 img{
+    width: 100px;
+}

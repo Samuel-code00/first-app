@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    
+}
+
+.dark img{
+    display: block;
+    margin: 10px;
+    width: 130px;
+    margin-left: 50px;
+}
+
+#size {
+   display: inline-block;
+   border: 1px solid black;
+   width: 100px;
+   text-align: center;
+   margin-left: 10px;
+   height: 30px;
+   padding-top: 5px;
+   border-radius: 20px;
+   background-color: #F0F0F0;
+}
+
+#size:hover{
+    background-color: black;
+    color: white;
+}
+
+.graphic{
+  margin-left: 30px;
+  /* height: 10%; */
+}
+
+#hr{
+    color: grey;
+}
+
+#click{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    height: 20px;
+    border-radius: 10px;
+}
+#click1{
+    background-color: gray;
+    
+    width: 30px;
+    display: inline-block;
+    font-weight: bold;
+
+}
+#click2{
+    display: inline-block;
+    margin-left: 10px;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
