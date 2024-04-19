@@ -31,6 +31,22 @@
 .clothes2 img{
     width: 250px;
 }
+
+.dress{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.dress p{
+    margin: 0;
+
+}
+
+.dress img{
+    width: 150px;
+    
+}
+
 .joe p{
     width: 35px;
     height: 35px;

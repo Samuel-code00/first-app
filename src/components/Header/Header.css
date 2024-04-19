@@ -49,8 +49,9 @@ input{
 }
 
 @media screen and (max-width:600px) {
+    
     .nav{
-        display: flex;
+        /* display: flex; */
         width: calc(100% - 30px);
         justify-content: space-between;
         align-items: center;

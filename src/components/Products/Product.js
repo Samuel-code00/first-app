@@ -66,7 +66,7 @@ export default function Product(){
             <img src= {b}/>
             <div className="dress">
             <p>T-SHIRT WITH TAPE DETAILS</p>
-            <img src={rate}/>
+            <img src={rate} />
             <p>$120</p>
             </div>
          </div>

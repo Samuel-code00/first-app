@@ -17,13 +17,13 @@ export default function Main(){
     return(
         <div className="main-wrapper">
             <div className="wrapper1">
-              <div className="cart">
+              <div className="cart1">
                   <img src={first} width={154} height={154}/>
                   <div className="item">
-                      <p><b>Gradient Graphic T-shirt</b></p>
-                      <p>Size: Large</p>
-                      <p>Color: White</p>
-                      <p>$145</p>
+                      <p id="dol"><b>Gradient Graphic T-shirt</b></p>
+                      <p id="large">Size: Large</p>
+                      <p id="large">Color: White</p>
+                      <p id="dol">$145</p>
                   </div>
   
                   <div id="bin">
@@ -35,34 +35,62 @@ export default function Main(){
                     </div> 
                   </div>
   
-                  <div className="cart">
-                     <img src={check} width={154} height={154}/>
-                     <div className="item">
-                         <p><b>Gradient Graphic T-shirt</b></p>
-                         <p>Size: Large</p>
-                         <p>Color: White</p>
-                         <p>$145</p>
-                     </div>
-     
-                     <div id="bin">
-                         <img src={bin} width={24}/>
-                         <div id="click">
-                          <p id="click1" onClick={addition}>+</p>
-                          <p id="click1">{initialNumber}</p>
-                          <p id="click1" onClick={subtraction}>-</p>
-                       </div> 
-                     </div>
-                  
-                    </div>
+                 
 
                 </div>
+                <hr/>
+
+                <div className="cart1">
+                   
+                   <img src={check} width={154} height={154}/>
+                   <div className="item">
+                       <p id="dol"><b>Gradient Graphic T-shirt</b></p>
+                       <p id="large">Size: Large</p>
+                       <p id="large">Color: White</p>
+                       <p id="dol">$145</p>
+                   </div>
+   
+                   <div id="bin">
+                       <img src={bin} width={24}/>
+                       <div className="click">
+                        <p className="click1" onClick={addition}>+</p>
+                        <p className="click1">{initialNumber}</p>
+                        <p className="click1" onClick={subtraction}>-</p>
+                     </div> 
+                   </div>
+                    
+               </div> 
+               <hr/> 
+   
+               <div className="cart1">
+                      
+                   <img src={blued} width={154} height={154}/>
+                   <div className="item">
+                       <p id="dol"><b>Gradient Graphic T-shirt</b></p>
+                       <p id="large">Size: Large</p>
+                       <p id="large">Color: White</p>
+                       <p id="dol">$145</p>
+                   </div>
+   
+                   <div id="bin">
+                       <img src={bin} width={24}/>
+                       <div id="click">
+                        <p id="click1" onClick={addition}>+</p>
+                        <p id="click1">{initialNumber}</p>
+                        <p id="click1" onClick={subtraction}>-</p>
+                     </div> 
+                   </div>
+                    
+               </div> 
             
-            </div>      
+            </div>  
+
+              
 
             
 
             <div>
-                <p><b>Order Summary</b></p>
+                <h3 id="order"><b>Order Summary</b></h3>
                 <div className="sub">
                     <div className="sub1">
                         <p id="grey">Subtotal <b id="amt">$565</b></p>

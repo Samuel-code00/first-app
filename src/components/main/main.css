@@ -5,16 +5,28 @@
     width: 90%;
 }
 
-.cart{
+.cart1{
     display: flex;
-    border: 1px solid;
-    height: 180px;
+    /* border: 1px solid; */
+    height: 150px;
     width: 667px;
 }
+
 .wrapper1{
-    display: block;
-    border: 1px solid;
+    width: 715px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-top: 85px;
+}
+
+.wrapper1 div{
+    margin-top: 10px;
+    margin: 20px;
     
+}
+
+.item{
+    margin-top: 30px;
 }
 
 .item p{
@@ -26,13 +38,29 @@
 
 #bin img{
     display: block;
-    margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 #bin p{
     display: inline;
-    margin-top: 100px;
+    justify-content: space-between;
+    margin-top: 150px;
    
+}
+.click{
+    text-align: center;
+    cursor: pointer;
+    height: 20px;
+    border-radius: 10px;
+}
+.click1{
+    background-color: gray;
+    font-weight: bold;
+
+}
+
+#order{
+    margin-left: 50px;
+    margin-top: 70px;
 }
 
 .sub{
@@ -50,21 +78,21 @@
     color: grey;
 }
 #amt{
-    margin-left: 200px;
+    margin-left: 260px;
     color: black;
 }
 #amt1{
     color: red;
-    margin-left: 140px;
+    margin-left: 200px;
 }
 #amt2{
     color: black;
-    margin-left: 180px;
+    margin-left: 240px;
 }
 #amt3{
     font-size: 20px;
     font-weight: bolder;
-    margin-left: 225px;
+    margin-left: 275px;
 }
 
 .add{
@@ -104,4 +132,14 @@
     text-align: center;
     box-sizing: border-box;
     padding-top: 10px;
+}
+
+#large{
+    color: grey;
+    font-size: 20px;
+}
+
+#dol{
+    font-size: 25px;
+    font-weight: bolder;
 }
